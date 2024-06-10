@@ -1,0 +1,3 @@
+- create details page
+- filter on api side if they are part time or full time
+- filter location and regular search bar

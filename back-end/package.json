@@ -1,0 +1,16 @@
+{
+  "name": "job-board-api",
+  "version": "1.0.0",
+  "description": "Job Board Backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Mark Simpson",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0"
+  }
+}
