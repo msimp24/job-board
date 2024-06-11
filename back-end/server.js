@@ -12,6 +12,6 @@ app.use(express.raw())
 
 app.use('/', jobsRouter)
 
-app.listen(3000, () => {
+app.listen(process.eng.PORT || 3000, () => {
   console.log('listening on port 3000')
 })
