@@ -3,6 +3,7 @@ const jobs = require('../data/jobs.json')
 
 const getAllJobs = (req, res, next) => {
   try {
+    console.log('hello')
     res.status(201).json({
       status: 'success',
       jobs: jobs,
