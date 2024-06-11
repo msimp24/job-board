@@ -7,7 +7,7 @@ const data = ref(null)
 const job = ref(null)
 
 const apiClient = axios.create({
-  baseURL: 'http://localhost:3000',
+  baseURL: 'https://job-board-fn9g.onrender.com',
   withCredentials: false,
   headers: {
     Accept: 'application/json',

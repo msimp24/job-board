@@ -4,7 +4,7 @@ import JobCard from '@/components/JobCard.vue'
 import axios from 'axios'
 
 const apiClient = axios.create({
-  baseURL: 'http://localhost:3000',
+  baseURL: 'https://job-board-fn9g.onrender.com',
   withCredentials: false,
   headers: {
     Accept: 'application/json',
